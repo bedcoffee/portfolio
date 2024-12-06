@@ -3,3 +3,12 @@
     color: #E0E0E0;
     font-family: 'Roboto', sans-serif;
 }
+a {
+    color: #3EB489;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00FF7F;
+    cursor:pointer
+}
