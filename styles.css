@@ -2,7 +2,26 @@
     background-color: #121212;
     color: #E0E0E0;
     font-family: 'Roboto', sans-serif;
+    margin-right: 2vw;
+    margin-left: 2vw;
 }
+
+.navigation {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navigation li {
+    margin-right: 2vw;
+}
+
 a {
     color: #3EB489;
     text-decoration: none;
@@ -10,5 +29,11 @@ a {
 
 a:hover {
     color: #00FF7F;
-    cursor:pointer
+    cursor: pointer
+}
+
+header {
+    max-width: 45vw;
+    overflow-wrap: break-word;
+    text-align: justify;
 }
